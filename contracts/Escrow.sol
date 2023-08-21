@@ -1,8 +1,9 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.17;
+pragma solidity 0.8.19;
 
 contract Escrow {
-	address public arbiter;
+	address public arbiter;	// make a non arbiter contract  | make frontend better | save data onn chain | read the To do
+
 	address public beneficiary;
 	address public depositor;
 

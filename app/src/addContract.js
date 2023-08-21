@@ -26,8 +26,11 @@ export default async function addContract(
 }
 
 function createHTML(buttonId, arbiter, beneficiary, value) {
+
+  //const valueEther = ethers.utils.parseUnits(value, "ether");
+
   return `
-    <div class="existing-contract">
+    <div class="existing-contract"> 
       <ul className="fields">
         <li>
           <div> Arbiter </div>

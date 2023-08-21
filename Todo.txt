@@ -1,0 +1,20 @@
+Github: https://github.com/Metaxona/EscrowMe
+Live: https://escrow-me-site.vercel.app/
+
+Here's my escrow dapp for week 5
+Network Deployed: Sepolia
+Live Contract Address: 0x8a5A0250072B8E908eE4fb500151c7072B5EDeD9
+https://sepolia.etherscan.io/address/0x8a5A0250072B8E908eE4fb500151c7072B5EDeD9
+For: ETH to ERC20 Token trades
+
+-no arbitrator needed
+-no back end
+-history is recorded on chain using mapping
+-has created, cancelled, completed, rejected events
+-you are the one who make the request and provide the (eth, token Address, token Amount and the target Address for the trade)
+
+>eth  is the amount of eth you are willing to pay for an amount of token
+>token address is the address of the token you want to get to make sure they are trading the correct token to you
+>target address is the address of the person you want to trade with
+
+Tools Used: React, wagmi, viem, solidity, hardhat (i used remix too in developing the contract) 
